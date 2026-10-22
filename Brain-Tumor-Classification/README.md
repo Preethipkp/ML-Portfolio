@@ -1,34 +1,43 @@
-# Brain Tumor Classification Using Deep Learning
+# Brain Tumor Classification Using CNN
 
 ## Project Overview
-This project uses Deep Learning and Transfer Learning to classify brain MRI images into four categories using a pretrained Convolutional Neural Network (CNN).
-
-## Tumor Categories
-- Glioma
-- Meningioma
-- Pituitary Tumor
-- No Tumor
+This project uses a Convolutional Neural Network (CNN) to classify brain MRI images into four categories: Glioma Tumor, Meningioma Tumor, No Tumor, and Pituitary Tumor.
 
 ## Technologies Used
 - Python
-- TensorFlow
 - Keras
-- MobileNetV2
 - NumPy
+- scikit-image
 - Matplotlib
+- Scikit-learn
 
-## Methodology
-1. Load and prepare the brain MRI image dataset.
-2. Preprocess images for model input.
-3. Use a pretrained MobileNetV2 model for transfer learning.
-4. Train and evaluate the classification model.
-5. Predict the class of brain MRI images.
+## Dataset
+The images are organized into four categories:
+- Glioma Tumor
+- Meningioma Tumor
+- No Tumor
+- Pituitary Tumor
 
-## Project Type
-Deep Learning | Computer Vision | Multiclass Image Classification
+Images are resized to 150 × 150 pixels with one channel.
 
-## Objective
-To explore how transfer learning can be applied to medical image classification using deep learning.
+## CNN Architecture
+1. Conv2D layer with 32 filters and ReLU activation
+2. MaxPool2D layer
+3. Flatten layer
+4. Dense layer with 100 neurons and ReLU activation
+5. Output Dense layer with 4 neurons and Softmax activation
 
-## Note
-This project is intended for educational purposes and is not a clinically validated diagnostic tool.
+## Model Training
+- Optimizer: Adam
+- Loss function: Sparse categorical cross-entropy
+- Epochs: 10
+- Batch size: 12
+
+## Evaluation and Prediction
+The model is evaluated on testing images. A classification report is used to examine its performance. The trained model also predicts the category of an individual MRI image, which is displayed using Matplotlib.
+
+## Saved Model
+`brain_tumor_cnnmodel.keras`
+
+## Disclaimer
+This project is for educational purposes only. It is not a clinically validated diagnostic system and should not be used to make medical decisions.
