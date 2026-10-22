@@ -7,14 +7,14 @@ A collection of Machine Learning, Deep Learning, Computer Vision, and Natural La
 ### 1. SaaS Customer Churn Prediction
 **Category:** Machine Learning
 
-A machine learning project focused on predicting customer churn using SaaS customer data.
+A machine learning project focused on predicting customer churn using SaaS customer data. The project includes data exploration, preprocessing, model training, and performance evaluation.
 
 [View Project](https://github.com/Preethipkp/saas-customer-churn-prediction)
 
-### 2. Brain Tumor Classification
+### 2. Brain Tumor Classification Using CNN
 **Category:** Deep Learning | Computer Vision
 
-A deep learning project using a pretrained CNN model to classify brain MRI images into four categories: glioma, meningioma, pituitary tumor, and no tumor.
+A deep learning project using a **custom Convolutional Neural Network (CNN)** to classify brain MRI images into four categories: glioma, meningioma, pituitary tumor, and no tumor.
 
 [View Notebook](Brain-Tumor-Classification/brain_tumor.ipynb)
 
@@ -27,14 +27,14 @@ An employee data analysis project using SQL queries to explore employee informat
 
 ## Skills and Technologies
 
+- Python
+- SQL
 - Machine Learning
 - Deep Learning
 - Computer Vision
 - Natural Language Processing (NLP)
-- SQL
-- Python
 - TensorFlow / Keras
 
 ## About This Portfolio
 
-This repository serves as a central overview of my data science and AI projects, showcasing practical skills in data analysis, model development, and image classification.
+This repository serves as a central overview of my machine learning, deep learning, and data analysis projects, demonstrating practical experience with data analysis, model development, and image classification.
