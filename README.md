@@ -16,7 +16,7 @@ A machine learning project focused on predicting customer churn using SaaS custo
 
 A deep learning project using a pretrained CNN model to classify brain MRI images into four categories: glioma, meningioma, pituitary tumor, and no tumor.
 
-*Project files will be added.*
+**Notebook:** Brain Tumor Classification Jupyter Notebook (.ipynb)
 
 ### 3. Employee Data Analysis Using SQL
 **Category:** SQL | Data Analytics
