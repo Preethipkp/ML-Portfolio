@@ -7,7 +7,7 @@ A collection of Machine Learning, Deep Learning, Computer Vision, and Natural La
 ### 1. SaaS Customer Churn Prediction
 **Category:** Machine Learning
 
-A machine learning project focused on predicting customer churn using SaaS customer data. The project includes data exploration, preprocessing, model training, and performance evaluation.
+A machine learning project that predicts customer churn using SaaS customer data. The workflow includes exploratory data analysis, preprocessing, MinMaxScaler feature scaling, K-Nearest Neighbors (KNN) and Random Forest classification, model evaluation, and saving the trained model. A Streamlit application (`app.py`) provides an interface for using the project.
 
 [View Project](https://github.com/Preethipkp/saas-customer-churn-prediction)
 
